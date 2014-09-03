@@ -14,7 +14,8 @@
     <![endif]-->
 	
   </head>
-  <body>
+ <body>
+
    <!-- Start Nav Bar --> <div class="navbar navbar-inverse navbar-fixed-top">
       <div class="container">
         <div class="navbar-header">
@@ -35,70 +36,142 @@
           </ul>
         </div>
       </div>
-    </div> 	<!-- End Nav Bar -->
+    </div></br> 	<!-- End Nav Bar -->
 
-   <div class="container"> <!-- main page container begin -->
-		<div class="page-header" id="banner"><!-- Page header begin -->
-			<div class="row">
-				<div class="col-md-7">
-					<h1><strong>Contact Us</strong></h1>
-				</div>
-				<div class="col-md-4 col-md-offset-1">
-					<!-- This is social media link section -->
-					<div class="row">
-						<div class="col-md-8">		
-							<p></p>
-							<a href="contact.html">
-							<button type="button" class="btn btn-default btn-sm">Contact Us</button>
-							</a>
-							
-							<a href="https://plus.google.com/113150459175459249164"
-							rel="publisher" target="_top" style="text-decoration:none;">
-							<img src="http://ssl.gstatic.com/images/icons/gplus-32.png" alt="Google+" style="border:0;width:32px;height:32px;"/>
-							</a>
-							
-							<a href="http://www.angieslist.com/companylist/us/pa/coopersburg/keith%27s-lock-and-door-service-reviews-6367786.htm"
-							rel="publisher" target="_top" style="text-decoration:none;">
-							<img src="images/al.png" alt="Google+" style="border:0;width:32px;height:32px;"/>
-							</a>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div><!-- page header end -->
-   
-		<div class="row">
-			<div class="col-lg-12">
-            <div class="bs-component">
-              <div class="jumbotron">
-				<div class="row">
-				<div class="col-lg-7 col-md-6">
-					<h3>Location Info</h3>
-					<p>We are located on the left side of narnia before you meet the tiger. if you see him and he wont let you pass hunt down a squirl and feed it to him. if he still wont let you through oh well</p>
-					<h4><strong>Address: </strong></h4><p>202 S 3rd St #2</br> Coopersburg, PA 18036</p>
-					<h4><strong>Phone: </strong></h4><p>610-841-4060</p>
-				</div>
-					<div class="col-lg-5 col-md-6 hidden-xs">
-					<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3030.064394459027!2d-75.47222599999999!3d40.58433399999999!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c43bcf2aee9d3f%3A0xef0beff8592ade34!2sKeith&#39;s+Mobile+Lock+%26+Door+Service!5e0!3m2!1sen!2sus!4v14
-					05381004302" width="400" height="300" frameborder="0" style="border:0"></iframe>
-					</div>
-					<div class="hidden-lg hidden-md xs-2">
-					<p>this will only show on mobile </p>
-					</div>
-				</div>
-				
-              </div>
+    <!-- Page Content -->
+    <div class="container">
+
+        <!-- Page Heading/Breadcrumbs -->
+        <div class="row">
+            <div class="col-lg-12">
+                <h1 class="page-header">Contact Us
+                    <small>We're Only A Call Away</small>
+                </h1>
+                <ol class="breadcrumb">
+                    <li><a href="index.html">Home</a>
+                    </li>
+                    <li class="active">Contact</li>
+                </ol>
             </div>
+        </div>
+        <!-- /.row -->
+
+        <!-- Content Row -->
+        <div class="row">
+            <!-- Map Column -->
+            <div class="col-md-8">
+                <!-- Embedded Google Map -->
+                <iframe width="100%" height="400px" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3033.5128601950814!2d-75.386372!3d40.508154000000005!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c422d535acb22f%3A0x5c5856d78763e43a!2sKeith&#39;s+Mobile+Lock+%26+Door+Services!5e0!3m2!1sen!2sus!4v1409711777810"></iframe>
+            </div>
+            <!-- Contact Details Column -->
+            <div class="col-md-4">
+                <h3>Contact Details</h3>
+                <p>
+                    202 S 3rd St #2<br>Coopersburg, PA 18036<br>
+                </p>
+                <p><i class="fa fa-phone"></i> 
+                    <abbr title="Phone">P</abbr>: (610) 841-4060</p>
+                <p><i class="fa fa-envelope-o"></i> 
+                    <abbr title="Email">E</abbr>: <a href="mailto:Keithslock@example.com">name@example.com</a>
+                </p>
+                <p><i class="fa fa-clock-o"></i> 
+                    <abbr title="Hours">H</abbr>: Monday - Friday: 8:00 AM to 5:00 PM<br><small>*mergency service always availible</small></p>
+                <ul class="list-unstyled list-inline list-social-icons">
+                    <li>
+                        <a href="#"><i class="fa fa-facebook-square fa-2x"></i></a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fa fa-linkedin-square fa-2x"></i></a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fa fa-twitter-square fa-2x"></i></a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fa fa-google-plus-square fa-2x"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!-- /.row -->
+
+        <!-- Contact Form -->
+        <!-- In order to set the email address and subject line for the contact form go to the bin/contact_me.php file. -->
+        <div class="row">
+            <div class="col-md-8">
+                <h3>Send us a Message</h3>
+                <form name="sentMessage" id="contactForm" novalidate>
+                    <div class="control-group form-group">
+                        <div class="controls">
+                            <label>Full Name:</label>
+                            <input type="text" class="form-control" id="name" required data-validation-required-message="Please enter your name.">
+                            <p class="help-block"></p>
+                        </div>
+                    </div>
+                    <div class="control-group form-group">
+                        <div class="controls">
+                            <label>Phone Number:</label>
+                            <input type="tel" class="form-control" id="phone" required data-validation-required-message="Please enter your phone number.">
+                        </div>
+                    </div>
+                    <div class="control-group form-group">
+                        <div class="controls">
+                            <label>Email Address:</label>
+                            <input type="email" class="form-control" id="email" required data-validation-required-message="Please enter your email address.">
+                        </div>
+                    </div>
+                    <div class="control-group form-group">
+                        <div class="controls">
+                            <label>Message:</label>
+                            <textarea rows="10" cols="100" class="form-control" id="message" required data-validation-required-message="Please enter your message" maxlength="999" style="resize:none"></textarea>
+                        </div>
+                    </div>
+                    <div id="success"></div>
+                    <!-- For success/fail messages -->
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+
+        </div>
+        <!-- /.row -->
+
+        <hr>
+
+        <!-- Footer -->
+	<footer>
+		<!-- This is social media link section -->
+		<div class="row ">
+			<div class="col-md-5 col-xs-10">	
+				<p>&copy; Keith's Lock & Door 2014</p>
+			</div>
+			<div class="col-md-7 col-xs-10 center-block">		
+				<a href="contact.html">
+			<button type="button" class="btn btn-default btn-sm">Contact Us</button>
+			</a>
+				<a href="https://plus.google.com/113150459175459249164"
+				rel="publisher" target="_top" style="text-decoration:none;">
+				<img src="http://ssl.gstatic.com/images/icons/gplus-32.png" alt="Google+" style="border:0;width:32px;height:32px;"/>
+			</a>
+				<a href="http://www.angieslist.com/companylist/us/pa/coopersburg/keith%27s-lock-and-door-service-reviews-6367786.htm"
+				rel="publisher" target="_top" style="text-decoration:none;">
+				<img src="images/al.png" alt="Google+" style="border:0;width:32px;height:32px;"/>
+				</a>
 			</div>
 		</div>
-		<hr>
-		<footer>
-			<p>&copy; Keith's Lock & Door 2014</p>
-		</footer>
-		
-	</div>
+	</footer></br>
+    </div>
+    <!-- /.container -->
+
+    <!-- jQuery Version 1.11.0 -->
+    <script src="js/jquery-1.11.0.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Contact Form JavaScript -->
+    <!-- Do not edit these files! In order to set the email address and subject line for the contact form go to the bin/contact_me.php file. -->
 		<script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
 		<script src="js/bootstrap.js"></script>
 
-	</body>
+</body>
+
 	</html>
