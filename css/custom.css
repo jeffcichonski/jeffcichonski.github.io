@@ -1,0 +1,19 @@
+body {
+
+	background:url(../img/ocean.JPG)no-repeat center center fixed;
+    background-position: center center;
+    background-repeat: none;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    background-size: cover;
+    color:#fff;
+    background-color:#333;
+}
+
+.center-table{
+	margin: 0 auto !important;
+	float: none !important;
+    color:#fff;
+
+}
